@@ -6,7 +6,7 @@ searchBtn.addEventListener('click', () => {
     const query = searchInput.value.trim();
     if(query){
         alert(`You searched for: ${query}`);
-        // window.location.href = `search.html?query=${encodeURIComponent(query)}`; // Optional redirect
+        
     } else {
         alert("Please enter something to search.");
     }
